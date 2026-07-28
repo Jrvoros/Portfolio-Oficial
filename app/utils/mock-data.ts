@@ -74,83 +74,35 @@ const mockKnownTechs = [
 
 const mockProjects = [
   {
-    slug: 'questor-erp',
-    title: 'Sistemas ERP Questor',
+    slug: 'tcc-agendamentos-monolito-vs-microsservicos',
+    title: 'Agendei — Monolito vs Microsserviços',
     shortDescription:
-      'Desenvolvimento e manutenção de funcionalidades ERP complexas com foco em regras fiscais, contábeis e trabalhistas e relatórios gerenciais.',
+      'Estudo comparativo de desempenho, latência e monitoramento de métricas entre arquiteturas Monolítica e Microsserviços para o meu TCC da USP.',
     thumbnail: {
-      url: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
+      url: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80',
     },
     pageThumbnail: {
-      url: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
+      url: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80',
     },
     technologies: [
-      { name: 'Delphi' },
-      { name: 'SQL' },
-      { name: 'nReport' },
-      { name: 'Firebird' },
-      { name: 'PostgreSQL' },
-      { name: 'Oracle' },
+      { name: 'Node.js' },
+      { name: 'Express' },
+      { name: 'React' },
+      { name: 'React Native' },
+      { name: 'Prometheus' },
+      { name: 'SQLite3' },
+      { name: 'JWT' },
+      { name: 'Tailwind CSS' },
     ],
     sections: [
       {
-        title: 'Módulos Fiscais e Contábeis',
+        title: 'Arquitetura Monolítica & Microsserviços',
         image: {
-          url: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80',
+          url: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80',
         },
       },
       {
-        title: 'Otimização de Banco de Dados',
-        image: {
-          url: 'https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=800&q=80',
-        },
-      },
-    ],
-    description: {
-      raw: {
-        children: [
-          {
-            type: 'paragraph',
-            children: [
-              { text: 'Trabalho focado no ' },
-              {
-                text: 'desenvolvimento e otimização de soluções ERP',
-                bold: true,
-              },
-              {
-                text: ' críticas para negócios na Questor Sistemas. Inclui o levantamento e análise de requisitos, interpretação de regras fiscais e trabalhistas, além do desenvolvimento de relatórios corporativos com o gerador nReport e otimização de consultas em grandes volumes de dados SQL.',
-              },
-            ],
-          },
-        ],
-      },
-      text: 'Trabalho focado no desenvolvimento e otimização de soluções ERP críticas para negócios na Questor Sistemas.',
-    },
-    liveProjectUrl: 'https://www.questor.com.br',
-    githubUrl: 'https://github.com',
-  },
-  {
-    slug: 'pegasus-integrations',
-    title: 'Portal de Integrações Pegasus',
-    shortDescription:
-      'Desenvolvimento de integrações de sistemas de gestão (ERP) com portais e aplicações web utilizando PHP e APIs REST.',
-    thumbnail: {
-      url: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80',
-    },
-    pageThumbnail: {
-      url: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80',
-    },
-    technologies: [
-      { name: 'PHP' },
-      { name: 'JavaScript' },
-      { name: 'jQuery' },
-      { name: 'APIs REST' },
-      { name: 'MySQL' },
-      { name: 'Firebird' },
-    ],
-    sections: [
-      {
-        title: 'Integração Web e Sincronização',
+        title: 'Monitoramento & Coleta de Métricas',
         image: {
           url: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
         },
@@ -162,19 +114,135 @@ const mockProjects = [
           {
             type: 'paragraph',
             children: [
-              { text: 'Criação de pontes de comunicação e ' },
-              { text: 'integrações web com sistemas ERP', bold: true },
+              { text: 'Projeto prático desenvolvido como parte do meu ' },
               {
-                text: ' desktop. Desenvolvimento de scripts PHP, manipulação de APIs REST e manipulação de bancos de dados relacionais MySQL e Firebird para sincronizar informações em tempo real.',
+                text: 'Trabalho de Conclusão de Curso (TCC) para a USP',
+                bold: true,
+              },
+              {
+                text: '. O objetivo principal foi construir e avaliar o mesmo sistema de agendamentos médicos (Agendei) sob duas abordagens arquiteturais distintas: Monolítica e Microsserviços.',
+              },
+            ],
+          },
+          {
+            type: 'paragraph',
+            children: [
+              {
+                text: 'Analisa o impacto no desenvolvimento, escalabilidade, monitoramento de métricas e latência de rede. O ecossistema inclui back-ends em Node.js com Express, front-ends Web em React com Tailwind CSS, front-end mobile com React Native/Expo, e instrumentação completa usando Prometheus e a biblioteca prom-client.',
               },
             ],
           },
         ],
       },
-      text: 'Criação de pontes de comunicação e integrações web com sistemas ERP desktop usando PHP e APIs REST.',
+      text: 'Estudo comparativo de desempenho, latência e monitoramento de métricas entre arquiteturas Monolítica e Microsserviços para o meu TCC da USP.',
     },
-    liveProjectUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
+    liveProjectUrl: '',
+    githubUrl: 'https://github.com/Jrvoros/tcc-agendamentos-monolito-vs-microsservicos',
+  },
+  {
+    slug: 'taif-car-sorteio',
+    title: 'Sorteio Taif Car',
+    shortDescription:
+      'Sistema desktop para sorteio de clientes e vendas de veículos, com lógica de negócios estruturada em Delphi e modelagem de banco de dados SQL.',
+    thumbnail: {
+      url: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80',
+    },
+    pageThumbnail: {
+      url: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80',
+    },
+    technologies: [
+      { name: 'Delphi' },
+      { name: 'SQL' },
+      { name: 'Banco de Dados Relacional' },
+    ],
+    sections: [
+      {
+        title: 'Modelagem de Regras do Sorteio',
+        image: {
+          url: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80',
+        },
+      },
+    ],
+    description: {
+      raw: {
+        children: [
+          {
+            type: 'paragraph',
+            children: [
+              { text: 'Sistema em ' },
+              { text: 'Delphi', bold: true },
+              {
+                text: ' com modelagem SQL robusta estruturado para realizar o sorteio de clientes com base em compras de veículos.',
+              },
+            ],
+          },
+          {
+            type: 'paragraph',
+            children: [
+              {
+                text: 'O projeto contempla a lógica de negócios organizada em classes (Carro, Cliente, Venda, Sorteio) e rotinas SQL para a manipulação dos dados fictícios e filtragem de cupons e clientes qualificados segundo as regras de negócios propostas.',
+              },
+            ],
+          },
+        ],
+      },
+      text: 'Sistema desktop para sorteio de clientes e vendas de veículos, com lógica de negócios estruturada em Delphi e modelagem de banco de dados SQL.',
+    },
+    liveProjectUrl: '',
+    githubUrl: 'https://github.com/Jrvoros/TaifCarSorteio',
+  },
+  {
+    slug: 'monitor-covid',
+    title: 'Monitor de Casos COVID-19',
+    shortDescription:
+      'Aplicação Delphi para consulta em tempo real de dados de COVID-19 por país, consumindo uma API REST com recursos de ordenação e filtros.',
+    thumbnail: {
+      url: 'https://images.unsplash.com/photo-1584035171746-d2503923c6f8?auto=format&fit=crop&w=800&q=80',
+    },
+    pageThumbnail: {
+      url: 'https://images.unsplash.com/photo-1584035171746-d2503923c6f8?auto=format&fit=crop&w=1200&q=80',
+    },
+    technologies: [
+      { name: 'Delphi' },
+      { name: 'RESTRequest4Delphi' },
+      { name: 'FireDAC' },
+      { name: 'REST API' },
+    ],
+    sections: [
+      {
+        title: 'Integração de API REST em Delphi',
+        image: {
+          url: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
+        },
+      },
+    ],
+    description: {
+      raw: {
+        children: [
+          {
+            type: 'paragraph',
+            children: [
+              { text: 'Aplicativo desktop desenvolvido em ' },
+              { text: 'Delphi', bold: true },
+              {
+                text: ' que se integra com a API pública do COVID-19 Brazil para fornecer informações atualizadas por país.',
+              },
+            ],
+          },
+          {
+            type: 'paragraph',
+            children: [
+              {
+                text: 'O aplicativo exibe informações completas (casos confirmados, óbitos, recuperados), oferece pesquisa instantânea com busca case-insensitive e ordenação dinâmica em tempo de execução via TFDMemTable e FireDAC.',
+              },
+            ],
+          },
+        ],
+      },
+      text: 'Aplicação Delphi para consulta em tempo real de dados de COVID-19 por país, consumindo uma API REST com recursos de ordenação e filtros.',
+    },
+    liveProjectUrl: '',
+    githubUrl: 'https://github.com/Jrvoros/Monitor_COVID',
   },
 ]
 
