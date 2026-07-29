@@ -1,29 +1,64 @@
-## 💚 Portfolio Tutorial 2023
+# 🚀 Portfólio Oficial - Jrvoros
 
-This project is a tutorial series for my [YouTube channel](https://www.youtube.com/@GBDev) where I teach viewers how to create a modern and professional portfolio using the latest web development tools and technologies. In this series, we will be using Next.js 13, Tailwind CSS, Hygraph CMS, TypeScript, and Framer Motion to build a complete and functional portfolio website from scratch.
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Jrvoros/Portfolio-Oficial?style=for-the-badge&color=gold" alt="Stars">
+  <img src="https://img.shields.io/github/forks/Jrvoros/Portfolio-Oficial?style=for-the-badge&color=blue" alt="Forks">
+  <img src="https://img.shields.io/github/license/Jrvoros/Portfolio-Oficial?style=for-the-badge&color=green" alt="License">
+</p>
 
-## 🖥 Project Images
-<img src="https://github.com/GBDev13/portfolio-tutorial-2023/assets/71772559/341fef7a-536d-4b4e-b124-9b99be313575" align="center" />
+Bem-vindo ao repositório do meu **Portfólio Oficial**! Este repositório reúne minha trajetória profissional, competências técnicas e soluções desenvolvidas na área de Engenharia de Software Backend, Arquitetura de Dados e Sistemas de Gestão (ERP).
 
-&nbsp;
+---
 
-More images [here](https://www.gbdev.me/projects/portfolio-tutorial-2023)
+## 📌 Sobre o Projeto
 
-&nbsp;
+O **Portfolio-Oficial** foi projetado para centralizar:
+- 💻 **Projetos em Destaque:** Soluções backend, arquiteturas multi-tenant e ecossistemas corporativos.
+- 🗄️ **Arquitetura SQL & Banco de Dados:** Modelagens robustas, otimização de queries e bancos relacionais.
+- 👨‍💻 **Trajetória Profissional:** Competências, stack tecnológica e formação acadêmica.
 
-## ⚙️ Technologies
+---
 
-* Next.js 13
-* TypeScript
-* Tailwind
-* Framer Motion
-* Hygraph CMS
+## 🛠️ Tecnologias & Ferramentas
 
-&nbsp;
+### **Backend & Banco de Dados**
+![Delphi](https://img.shields.io/badge/Delphi-Red?style=for-the-badge&logo=delphi&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=sqlite&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-00599C?style=for-the-badge)
+![Multi-Tenant](https://img.shields.io/badge/Multi--Tenant_Architecture-4B0082?style=for-the-badge)
 
-### 🔗 Project live
-* [Portfolio Tutorial 2023](https://portfolio-tutorial-2023.vercel.app/)
+### **Ambiente & Ferramentas**
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-&nbsp;
+---
 
-<p align="center">Developed with 💙 by GBDev</p>
+## 👨‍💻 Sobre Mim
+
+**Backend Software Engineer | SQL Architect | ERP & Systems Specialist**
+
+- 🎓 **Formação:** MBA em Engenharia de Software (USP/Esalq).
+- 🔭 **Especialidade:** Desenvolvimento de ecossistemas backend, modelagem avançada de dados SQL, otimização de performance e sistemas multi-tenant de alta disponibilidade.
+- ⚡ **Estilo de Atuação:** Planejamento estruturado, código limpo e cumprimento rigoroso de metas.
+
+---
+
+## 📊 Estatísticas do GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Jrvoros&show_icons=true&theme=dark" alt="Estatísticas do GitHub - Jrvoros" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jrvoros&layout=compact&theme=dark" alt="Linguagens mais usadas - Jrvoros" height="160"/>
+</p>
+
+---
+
+## 🚀 Como Executar Localmente
+
+```bash
+# 1. Clone o repositório
+git clone [https://github.com/Jrvoros/Portfolio-Oficial.git](https://github.com/Jrvoros/Portfolio-Oficial.git)
+
+# 2. Acesse a pasta do projeto
+cd Portfolio-Oficial
