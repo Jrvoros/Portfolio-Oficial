@@ -1,47 +1,45 @@
-# 🚀 Portfólio Oficial - Jrvoros
+# 💼 Portfólio Oficial
 
 <p align="center">
+  <a href="https://portfolio-oficial-omega.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Deploy na Vercel">
+  </a>
   <img src="https://img.shields.io/github/stars/Jrvoros/Portfolio-Oficial?style=for-the-badge&color=gold" alt="Stars">
-  <img src="https://img.shields.io/github/forks/Jrvoros/Portfolio-Oficial?style=for-the-badge&color=blue" alt="Forks">
-  <img src="https://img.shields.io/github/license/Jrvoros/Portfolio-Oficial?style=for-the-badge&color=green" alt="License">
 </p>
 
-Bem-vindo ao repositório do meu **Portfólio Oficial**! Este repositório reúne minha trajetória profissional, competências técnicas e soluções desenvolvidas na área de Engenharia de Software Backend, Arquitetura de Dados e Sistemas de Gestão (ERP).
+Aplicação web do meu **Portfólio Profissional**, desenvolvida para apresentar meus projetos backend, arquitetura de banco de dados e trajetória na Engenharia de Software.
+
+🌐 **Acesse a aplicação em produção:** [portfolio-oficial-omega.vercel.app](https://portfolio-jrvoros.vercel.app/)
 
 ---
 
-## 📌 Sobre o Projeto
+## 🛠️ Tecnologias Utilizadas
 
-O **Portfolio-Oficial** foi projetado para centralizar:
-- 💻 **Projetos em Destaque:** Soluções backend, arquiteturas multi-tenant e ecossistemas corporativos.
-- 🗄️ **Arquitetura SQL & Banco de Dados:** Modelagens robustas, otimização de queries e bancos relacionais.
-- 👨‍💻 **Trajetória Profissional:** Competências, stack tecnológica e formação acadêmica.
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
----
-
-## 🛠️ Tecnologias & Ferramentas
-
-### **Backend & Banco de Dados**
-![Delphi](https://img.shields.io/badge/Delphi-Red?style=for-the-badge&logo=delphi&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=sqlite&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-00599C?style=for-the-badge)
-![Multi-Tenant](https://img.shields.io/badge/Multi--Tenant_Architecture-4B0082?style=for-the-badge)
-
-### **Ambiente & Ferramentas**
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+- **Framework:** Next.js (App Router)
+- **Linguagem:** TypeScript
+- **Estilização:** Tailwind CSS & PostCSS
+- **Deploy & CI/CD:** Vercel
+- **Gerenciador de Pacotes:** Yarn
 
 ---
 
-## 👨‍💻 Sobre Mim
+## 🚀 Como Executar o Projeto Localmente
 
-**Backend Software Engineer | SQL Architect | ERP & Systems Specialist**
+```bash
+# 1. Clone o repositório
+git clone [https://github.com/Jrvoros/Portfolio-Oficial.git](https://github.com/Jrvoros/Portfolio-Oficial.git)
 
-- 🎓 **Formação:** MBA em Engenharia de Software (USP/Esalq).
-- 🔭 **Especialidade:** Desenvolvimento de ecossistemas backend, modelagem avançada de dados SQL, otimização de performance e sistemas multi-tenant de alta disponibilidade.
-- ⚡ **Estilo de Atuação:** Planejamento estruturado, código limpo e cumprimento rigoroso de metas.
+# 2. Acesse a pasta do projeto
+cd Portfolio-Oficial
 
----
+# 3. Instale as dependências
+yarn install
 
+# 4. Execute o servidor de desenvolvimento
+yarn dev
