@@ -45,20 +45,3 @@ O **Portfolio-Oficial** foi projetado para centralizar:
 
 ---
 
-## 📊 Estatísticas do GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jrvoros&show_icons=true&theme=dark" alt="Estatísticas do GitHub - Jrvoros" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jrvoros&layout=compact&theme=dark" alt="Linguagens mais usadas - Jrvoros" height="160"/>
-</p>
-
----
-
-## 🚀 Como Executar Localmente
-
-```bash
-# 1. Clone o repositório
-git clone [https://github.com/Jrvoros/Portfolio-Oficial.git](https://github.com/Jrvoros/Portfolio-Oficial.git)
-
-# 2. Acesse a pasta do projeto
-cd Portfolio-Oficial
