@@ -137,7 +137,8 @@ const mockProjects = [
       text: 'Estudo comparativo de desempenho, latência e monitoramento de métricas entre arquiteturas Monolítica e Microsserviços para o meu TCC da USP.',
     },
     liveProjectUrl: '',
-    githubUrl: 'https://github.com/Jrvoros/tcc-agendamentos-monolito-vs-microsservicos',
+    githubUrl:
+      'https://github.com/Jrvoros/tcc-agendamentos-monolito-vs-microsservicos',
   },
   {
     slug: 'taif-car-sorteio',
