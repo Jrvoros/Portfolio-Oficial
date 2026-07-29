@@ -197,10 +197,10 @@ const mockProjects = [
     shortDescription:
       'Aplicação Delphi para consulta em tempo real de dados de COVID-19 por país, consumindo uma API REST com recursos de ordenação e filtros.',
     thumbnail: {
-      url: 'https://images.unsplash.com/photo-1584035171746-d2503923c6f8?auto=format&fit=crop&w=800&q=80',
+      url: 'https://images.unsplash.com/photo-1584254520678-31fe4dce5306?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     pageThumbnail: {
-      url: 'https://images.unsplash.com/photo-1584035171746-d2503923c6f8?auto=format&fit=crop&w=1200&q=80',
+      url: 'https://images.unsplash.com/photo-1584254520678-31fe4dce5306?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     technologies: [
       { name: 'Delphi' },
